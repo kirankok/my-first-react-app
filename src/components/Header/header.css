@@ -1,0 +1,12 @@
+.header-container {
+  min-height: 40px;
+  background-color: rgb(23, 120, 206);
+  color: #fff;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
