@@ -15,7 +15,7 @@ const ProductList = () => {
   const formatProductData = (data) => {
 
     return data.map((item, index) => {
-      return <Product key={index} imageSrc={item.image} productDescription={item.category} productTitle={item.title} productPrice={item.price} productId={item.id} />
+      return <Product key={index} {...item} />
     })
   }
 
