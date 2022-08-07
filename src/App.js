@@ -1,14 +1,20 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import ProductList from './components/product-list/ProductList';
+import Routes from './Routes';
+
 
 function App() {
+
   return (
     <>
       <Header />
-      <ProductList />
+      <Routes />
     </>
-  );
+  )
+
+
+
 }
 
 export default App;
