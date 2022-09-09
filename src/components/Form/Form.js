@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 
 function Form({ firstName, lastName, handleChange }) {
-
 
   return (
     <form>
       <div>
-        <label>First Name:</label>
+        <label>FIrst Name:</label>
         <input type={'text'} value={firstName} name="firstName" onChange={handleChange} />
       </div>
       <div>
@@ -18,4 +17,3 @@ function Form({ firstName, lastName, handleChange }) {
 }
 
 export default Form
-
